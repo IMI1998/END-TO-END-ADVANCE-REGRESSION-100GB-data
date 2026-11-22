@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs / caches
+*.log
+logs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+
+# Weights, checkpoints and generated outputs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npz
+outputs/
+output/
+kaggle/
+wandb/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
